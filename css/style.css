@@ -1,0 +1,169 @@
+body{
+  margin-top: 20px;
+  background: papayawhip; 
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header h1 {
+   background-color: rgba(0,100,100,.8); 
+   display: block;
+   position: fixed;
+   color: turquoise;
+   margin-top: -20px;
+   margin-left: -10px;
+   margin-right: 1Opx;
+   width: 100%;
+   padding: 10px;;
+   line-height: 25px; 
+
+}
+h1 {
+  position: fixed;
+}
+body header .status{
+    display: block;
+   padding-top: 3em;
+}
+body .sa h3, .bnp h3{
+  font-weight: bold;
+  color: white;
+  background-color:orange;
+  width: 30%;
+  border-radius: 25em;
+  padding: 0.5em;
+}
+
+div .tooltip {	
+  position: absolute;			
+  text-align: center;			
+  width: 10%;					
+  height: 40px;					
+  padding:5px;	
+  font: 10px sans-serif;		
+  background-color: lightslategray;	
+  color: white;
+  border: 1px black solid;		
+  border-radius: 20px;
+  font-size: 12px;			
+  pointer-events: none;	
+  font-weight: bold ;		
+}
+
+body h2{
+    background-color: mediumorchid;
+    color: white;
+    border-radius: 25px;
+    width: 75%;
+}
+
+body table tr th span{
+    background-color: lightseagreen;
+    font-style: italic;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 30px;
+    
+}
+table {
+  background-color: white;
+}
+body table tr td .comPie{
+    margin: 0 ;
+    padding: 20px;
+    text-align: left; 
+    position: block;
+    width: 50%;
+    margin-left: 20%;
+}
+
+
+header .trait1{
+    padding: 10em;
+    border-color: black;
+}
+/*****Menu************/
+header nav{
+    float: right;
+   display: block;
+    top: -20px;
+    z-index: 1;
+    position: fixed;
+    right: 0px;
+    margin-top: 15px;
+    text-align: center; 
+  }
+
+  header nav ul {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  header nav ul li{
+    list-style: none;
+    float: left;
+    padding: 0.9px;
+    position: relative;
+    border: 0px solid beige;
+  }
+
+  header nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    width: 200px;
+    color: white;
+    text-shadow: 3px 3px 3px brown;
+    line-height: 50px;
+  }
+
+  header nav ul li ul{
+    position: absolute;
+    visibility: hidden;
+    right: -10px;
+    top:50px;
+  }
+
+  header nav ul li ul li{
+    background-color:rgba(0,100,100,.8); 
+  }
+
+  header nav ul li:hover ul{
+    visibility: visible;
+  }
+
+  header nav ul li:hover{
+    background-color:white;
+    margin: 0.4em auto;
+  }
+
+  header nav ul li a:hover{
+    color: black;
+    font-size: 20px;
+  }
+  /*********pied de page***************/
+  footer{
+    margin-top: 120px;
+    text-align: center;
+  
+    height: 300px;
+    padding-top: 20px;
+    background-color: dimgrey;
+    border-radius: 25px;
+  }
+ .footer h1{
+  color: white;
+    text-align: center;
+  }
+
+body .footer h1{
+  position:relative;
+  color: white;
+}
+body .footer .copyright{
+  color: white;
+}
+body  table td{
+  border-collapse: collapse;
+}
